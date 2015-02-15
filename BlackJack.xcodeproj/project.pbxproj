@@ -13,6 +13,11 @@
 		405CDF7A1A8FE5E400197C57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405CDF791A8FE5E400197C57 /* Images.xcassets */; };
 		405CDF7D1A8FE5E400197C57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405CDF7B1A8FE5E400197C57 /* LaunchScreen.xib */; };
 		405CDF891A8FE5E400197C57 /* BlackJackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405CDF881A8FE5E400197C57 /* BlackJackTests.swift */; };
+		405CDF931A91013B00197C57 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405CDF921A91013B00197C57 /* Card.swift */; };
+		405CDF951A91015500197C57 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405CDF941A91015500197C57 /* Deck.swift */; };
+		405CDF971A91016500197C57 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405CDF961A91016500197C57 /* Dealer.swift */; };
+		405CDF991A91017300197C57 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405CDF981A91017300197C57 /* Player.swift */; };
+		405CDF9B1A91018100197C57 /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405CDF9A1A91018100197C57 /* Playground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		405CDF821A8FE5E400197C57 /* BlackJackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		405CDF871A8FE5E400197C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		405CDF881A8FE5E400197C57 /* BlackJackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackTests.swift; sourceTree = "<group>"; };
+		405CDF921A91013B00197C57 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		405CDF941A91015500197C57 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		405CDF961A91016500197C57 /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		405CDF981A91017300197C57 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		405CDF9A1A91018100197C57 /* Playground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				405CDF791A8FE5E400197C57 /* Images.xcassets */,
 				405CDF7B1A8FE5E400197C57 /* LaunchScreen.xib */,
 				405CDF701A8FE5E400197C57 /* Supporting Files */,
+				405CDF921A91013B00197C57 /* Card.swift */,
+				405CDF941A91015500197C57 /* Deck.swift */,
+				405CDF961A91016500197C57 /* Dealer.swift */,
+				405CDF981A91017300197C57 /* Player.swift */,
+				405CDF9A1A91018100197C57 /* Playground.swift */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -212,7 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405CDF951A91015500197C57 /* Deck.swift in Sources */,
 				405CDF751A8FE5E400197C57 /* ViewController.swift in Sources */,
+				405CDF931A91013B00197C57 /* Card.swift in Sources */,
+				405CDF971A91016500197C57 /* Dealer.swift in Sources */,
+				405CDF9B1A91018100197C57 /* Playground.swift in Sources */,
+				405CDF991A91017300197C57 /* Player.swift in Sources */,
 				405CDF731A8FE5E400197C57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +425,7 @@
 				405CDF8E1A8FE5E400197C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		405CDF8F1A8FE5E400197C57 /* Build configuration list for PBXNativeTarget "BlackJackTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +434,7 @@
 				405CDF911A8FE5E400197C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
